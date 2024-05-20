@@ -1,7 +1,7 @@
 import MaxWidthWrapper from "@/src/components/MaxWidthWrapper";
 import CTA from "../components/CTA";
 
-export default function Home() {
+export default function Notfound() {
   return (
     <>
       <MaxWidthWrapper>

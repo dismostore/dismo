@@ -9,12 +9,13 @@ const newsletterSchema = new Schema<INewsletter>(
     email: { type: String, required: true, unique: true },
   },
   {
+    timestamps: true,
     collection: "newsletter",
   }
 );
 
 const Newsletter: Model<INewsletter> =
   mongoose.models.Newsletter ||
-  mongoose.model<INewsletter>("newsletter", newsletterSchema);
+  mongoose.model<INewsletter>("Newsletter", newsletterSchema);
 
 export default Newsletter;

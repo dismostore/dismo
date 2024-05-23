@@ -6,10 +6,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
   const { email } = (await request.json()) as { email: string };
   await connectMongoDB();
   await Newsletter.create({ email });
-  return NextResponse.json(
-    { message: "Email added to newsletter" },
-    { status: 201 }
-  );
+  return new NextResponse(null, { status: 201 });
 }
 
 export async function GET(): Promise<NextResponse> {
@@ -21,7 +18,9 @@ export async function GET(): Promise<NextResponse> {
 export async function DELETE(request: NextRequest): Promise<NextResponse> {
   const email = request.nextUrl.searchParams.get("email");
   if (!email) {
-    return NextResponse.json({ message: "Email is required" }, { status: 400 });
+    return new NextResponse(JSON.stringify({ error: "Email not present" }), {
+      status: 409,
+    });
   }
   await connectMongoDB();
   await Newsletter.findOneAndDelete({ email });

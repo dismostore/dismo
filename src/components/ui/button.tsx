@@ -5,21 +5,21 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/src/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-gray-900 dark:focus-visible:ring-gray-300",
+  "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-green-950 dark:focus-visible:ring-green-300",
   {
     variants: {
       variant: {
         default:
-          "bg-green-600 text-gray-50 hover:bg-green-600/90 dark:bg-gray-50 dark:text-green-600 dark:hover:bg-gray-50/90",
+          "bg-green-600 text-green-50 hover:bg-green-600/90 dark:bg-green-50 dark:text-green-900 dark:hover:bg-green-50/90",
         destructive:
-          "bg-red-500 text-gray-50 hover:bg-red-500/90 dark:bg-red-900 dark:text-gray-50 dark:hover:bg-red-900/90",
+          "bg-red-500 text-green-50 hover:bg-red-500/90 dark:bg-red-900 dark:text-green-50 dark:hover:bg-red-900/90",
         outline:
-          "border border-gray-200 bg-white hover:bg-gray-100 hover:text-green-600 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800 dark:hover:text-gray-50",
+          "border border-green-200 bg-white hover:bg-green-100 hover:text-green-900 dark:border-green-800 dark:bg-green-950 dark:hover:bg-green-800 dark:hover:text-green-50",
         secondary:
-          "bg-gray-100 text-green-600 hover:bg-gray-100/80 dark:bg-gray-800 dark:text-gray-50 dark:hover:bg-gray-800/80",
+          "bg-green-100 text-green-900 hover:bg-green-100/80 dark:bg-green-800 dark:text-green-50 dark:hover:bg-green-800/80",
         ghost:
-          "hover:bg-gray-100 hover:text-green-600 dark:hover:bg-gray-800 dark:hover:text-gray-50",
-        link: "text-green-600 underline-offset-4 hover:underline dark:text-gray-50",
+          "hover:bg-green-100 hover:text-green-900 dark:hover:bg-green-800 dark:hover:text-green-50",
+        link: "text-green-900 underline-offset-4 hover:underline dark:text-green-50",
       },
       size: {
         default: "h-10 px-4 py-2",

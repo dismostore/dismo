@@ -9,7 +9,7 @@ const Navbar = () => {
         <MaxWidthWrapper>
           <div className="border-b border-gray-200">
             <div className="flex justify-center h-16 items-center">
-              <Link href="/">
+              <Link href="./">
                 <Icons.logo className="h-7 w-auto " />
               </Link>
             </div>

@@ -1,6 +1,7 @@
 import { buttonVariants } from "./ui/button";
 import { Icons } from "./Icons";
 import { Inter } from "next/font/google";
+import { Input } from "./ui/input";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,7 +11,7 @@ const CTA = () => {
       <div className="mx-auto max-w-7xl py-16 sm:py-24 sm:px-6 lg:px-8">
         <div className="relative isolate overflow-hidden px-6 sm:px-16 lg:flex lg:gap-x-20 lg:px-24">
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-24 lg:text-left">
-            <h2 className="text-3xl leading-7 font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-8">
+            <h2 className="text-3xl leading-7 font-bold tracking-tight text-gray-800 sm:text-4xl sm:leading-8">
               Under maintenance...
             </h2>
             <p className="mt-6 text-lg leading-4 text-gray-600">
@@ -22,13 +23,16 @@ const CTA = () => {
                 href="mailto:support@dismo.co.uk"
                 className={buttonVariants({ variant: "default" })}
               >
-                Contact support
+                Subscribe
               </a>
             </div>
           </div>
           <div className="relative mt-16 h-80 lg:mt-8">
             <Icons.illustrationserver className="absolute left-0 top-0 w-128 h-auto max-w-none " />
           </div>
+        </div>
+        <div>
+          <Input type="email" placeholder="Email" />
         </div>
       </div>
     </div>

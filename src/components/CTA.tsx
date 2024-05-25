@@ -2,7 +2,6 @@ import { buttonVariants } from "./ui/button";
 import { Icons } from "./Icons";
 import { Inter } from "next/font/google";
 import { Input } from "./ui/input";
-import { ProfileForm } from "./NewsletterForm";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,16 +23,13 @@ const CTA = () => {
                 href="mailto:support@dismo.co.uk"
                 className={buttonVariants({ variant: "default" })}
               >
-                Subscribe
+                Contact us
               </a>
             </div>
           </div>
           <div className="relative mt-16 h-80 lg:mt-8">
             <Icons.illustrationserver className="absolute left-0 top-0 w-128 h-auto max-w-none " />
           </div>
-        </div>
-        <div>
-          <ProfileForm />
         </div>
       </div>
     </div>

@@ -1,3 +1,5 @@
-export default function Privacy() {
-  return <div>privacy</div>;
-}
+const Privacy = () => {
+  return <div></div>;
+};
+
+export default Privacy;

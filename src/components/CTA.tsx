@@ -2,6 +2,7 @@ import { buttonVariants } from "./ui/button";
 import { Icons } from "./Icons";
 import { Inter } from "next/font/google";
 import { Input } from "./ui/input";
+import { ProfileForm } from "./NewsletterForm";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,7 +33,7 @@ const CTA = () => {
           </div>
         </div>
         <div>
-          <Input type="email" placeholder="Email" />
+          <ProfileForm />
         </div>
       </div>
     </div>

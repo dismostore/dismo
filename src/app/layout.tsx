@@ -27,8 +27,9 @@ export default function RootLayout({
         <meta name="author" content="DISMO" />
         <meta
           name="copyright"
-          content="Copyright 2024 Distro Mobiles T/A DISMO"
+          content="© 2024 Distro Mobiles Ltd T/A DISMO. All rights reserved."
         />
+        <link rel="shortcut icon" href="/icon.png" />
       </head>
       <body className={cn("relative h-full antialiased", quicksand.className)}>
         <main className="relative flex flex-col min-h-screen">

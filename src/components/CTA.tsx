@@ -14,7 +14,7 @@ const CTA = () => {
             <h2 className="text-3xl leading-7 font-bold tracking-tight text-gray-800 sm:text-4xl sm:leading-8">
               Under maintenance...
             </h2>
-            <p className="mt-6 text-lg leading-4 text-gray-600">
+            <p className="mt-5 text-lg leading-4 text-gray-600">
               Don&apos;t worry, we&apos;ll be back up shortly. In the meantime,
               we&apos;re here if you need any support.
             </p>

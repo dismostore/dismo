@@ -29,6 +29,7 @@ export default function RootLayout({
           name="copyright"
           content="© 2024 Distro Mobiles Ltd T/A DISMO. All rights reserved."
         />
+        <meta name="format-detection" content="telephone=no" />
       </head>
       <body className={cn("relative h-full", quicksand.className)}>
         <main className="relative flex flex-col min-h-screen subpixel-antialiased">

@@ -128,7 +128,7 @@ export default function Home() {
                       IMEI
                     </td>
                     <td className="whitespace-nowrap px-4 h-12 items-center text-gray-800 className text-sm">
-                      12 302024 898093 6
+                      12 302<span></span>024 898<span></span>093 6
                     </td>
                   </tr>
                   <tr className="even:bg-gray-50">
@@ -144,7 +144,7 @@ export default function Home() {
                       Reference
                     </td>
                     <td className="flex gap-x-2 whitespace-nowrap px-4 h-12 items-center text-gray-800 className text-sm">
-                      40433-22441
+                      40<span></span>433-224<span></span>41
                     </td>
                   </tr>
                 </tbody>

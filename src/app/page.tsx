@@ -19,7 +19,7 @@ export default function Home() {
                 DISMO warranty +
               </h1>
               <div className="grid max-w-4xl mx-auto gap-y-6 grid-cols-2 sm:grid-cols-3 w-full mb-2">
-                <p className="flex justify-center items-center gap-x-3 font-semibold text-gray-800 w-full">
+                <p className="flex justify-center items-center gap-x-2 font-semibold text-gray-800 w-full">
                   <svg
                     className="stroke-green-600 h-6 w-6"
                     viewBox="0 0 24 24"

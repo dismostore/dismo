@@ -1,7 +1,6 @@
 import { buttonVariants } from "./ui/button";
 import { Icons } from "./Icons";
 import { Inter } from "next/font/google";
-import { Input } from "./ui/input";
 
 const inter = Inter({ subsets: ["latin"] });
 

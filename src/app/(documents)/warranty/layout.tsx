@@ -1,7 +1,7 @@
 import { cn } from "@/src/lib/utils";
 import type { Metadata } from "next";
 import { Quicksand } from "next/font/google";
-import "./globals.css";
+import "../../globals.css";
 import Navbar from "@/src/components/Navbar";
 import Footer from "@/src/components/Footer";
 
@@ -30,13 +30,7 @@ export default function RootLayout({
           content="© 2024 Distro Mobiles Ltd T/A DISMO. All rights reserved."
         />
       </head>
-      <body className={cn("relative h-full", quicksand.className)}>
-        <main className="relative flex flex-col min-h-screen">
-          <Navbar />
-          <div className="flex-grow flex-1">{children}</div>
-          <Footer />
-        </main>
-      </body>
+      {children}
     </html>
   );
 }

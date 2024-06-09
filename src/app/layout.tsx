@@ -31,7 +31,7 @@ export default function RootLayout({
         />
       </head>
       <body className={cn("relative h-full", quicksand.className)}>
-        <main className="relative flex flex-col min-h-screen">
+        <main className="relative flex flex-col min-h-screen subpixel-antialiased">
           <Navbar />
           <div className="flex-grow flex-1">{children}</div>
           <Footer />

@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Quicksand";
-  src: url("fonts/quicksand.woff2");
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("fonts/inter.woff2");
-}
-
 @layer utilities {
   blockquote,
   dl,
@@ -31,7 +21,6 @@
   td,
   a {
     max-width: 45rem;
-    font-family: "Quicksand";
     font-size: 1rem;
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;

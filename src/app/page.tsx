@@ -35,7 +35,7 @@ export default function Home() {
                   </svg>
                   Technical defects
                 </p>
-                <p className="flex col-span-2 sm:col-span-1 justify-center items-center gap-x-3 font-semibold text-gray-800 w-full">
+                <p className="flex justify-center items-center gap-x-3 font-semibold text-gray-800 w-full">
                   <svg
                     className="stroke-green-600 h-6 w-6"
                     viewBox="0 0 24 24"
@@ -51,7 +51,7 @@ export default function Home() {
                   </svg>
                   Priority support
                 </p>
-                <p className="flex justify-center items-center gap-x-3 font-semibold text-gray-800 w-full">
+                <p className="flex col-span-2 sm:col-span-1 justify-center items-center gap-x-3 font-semibold text-gray-800 w-full">
                   <svg
                     className="stroke-green-600 h-6 w-6"
                     viewBox="0 0 24 24"
